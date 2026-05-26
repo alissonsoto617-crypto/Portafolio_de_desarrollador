@@ -1,0 +1,82 @@
+<?php
+$nombre = "Alisson Ariana Osorio Soto";
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $nombre; ?> | Desarrolladora Web</title>
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><?php echo $nombre; ?></div>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="yop.jpeg" alt="Alisson Ariana Osorio Soto" class="foto-perfil">>
+            <h1>Hola, soy  Alisson <?php echo $nombre; ?></h1>
+            <p class="profesion">Estudiante de Desarrollo Web</p>
+            <a href="#proyectos" class="btn">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="seccion">
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy una estudiante de desarrollo web con muchas ganas de crecer profesionalmente. Me apasiona crear sistemas que sean útiles, ordenados y fáciles de usar. Soy una persona responsable, trabajadora, ordenada, buena trabajando en equipo y con capacidad para aprender rápido.</p>
+    </section>
+
+    <section id="proyectos" class="seccion">
+        <h2>Mis Proyectos</h2>
+        
+        <div class="proyecto-card">
+            <h3>Sistema Académico Estudiantil</h3>
+            <p>Plataforma completa para la gestión de un instituto educativo. Permite administrar carreras, materias, maestros, estudiantes, inscripciones y calificaciones con validaciones y reportes.</p>
+            <p><strong>Tecnologías:</strong> PHP • MySQL • HTML • CSS</p>
+            
+            <img src="Captura de pantalla 2026-05-25 164251.png" alt="Vista del Sistema Académico" class="proyecto-img">
+            
+            <div class="btns">
+                <a href="https://github.com/alissonsoto617-crypto/sistema_academico.git" target="_blank" class="btn-primary">Ver Sistema</a>
+             
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="seccion">
+        <h2>Habilidades</h2>
+        <div class="habilidades-grid">
+            <div class="habilidad">HTML5</div>
+            <div class="habilidad">CSS3</div>
+            <div class="habilidad">PHP</div>
+            <div class="habilidad">MySQL</div><div></div>
+            <div class="habilidad">Trabajo en Equipo</div>
+            <div class="habilidad">Aprendizaje Rápido</div>
+            <div class="habilidad">Organización</div>
+            <div class="habilidad">Responsabilidad</div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <div class="contact-info">
+            <a href="tel:76048130" class="contact-item">7604-8130</a>
+            <a href="mailto:alissonsoto617@gmail.com" class="contact-item">alissonsoto617@gmail.com</a>
+            <a href="https://instagram.com/ale9_867" target="_blank" class="contact-item">@ale9_867</a>
+            <a href="alissonsoto617-crypto" target="_blank" class="contact-item">alissonsoto617</a>
+        </div>
+    </section>
+
+</body>
+</html>
